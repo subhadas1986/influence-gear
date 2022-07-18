@@ -52,7 +52,7 @@ body{
 /* header part end */
 /* banner part start */
 .banner-container{
-    margin:50px 0;
+    margin:80px 0;
 }
 .banner-part{
     display: flex;
@@ -92,3 +92,20 @@ body{
     left: 50px;
 }
 /* banner part end */
+/* our partner part start */
+.our-partner-container{
+    margin-bottom: 80px;
+}
+.our-partner{
+    padding: 40px;
+    box-shadow: 10px 10px 40px grey;
+    width: 85%;
+    margin: 0 auto;
+    border: 1px solid #dddddd;
+}
+.our-partner-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* our partner part end */
