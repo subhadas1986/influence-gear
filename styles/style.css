@@ -94,7 +94,7 @@ body{
 /* banner part end */
 /* our partner part start */
 .our-partner-container{
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 .our-partner{
     padding: 40px;
@@ -109,3 +109,113 @@ body{
     justify-content: space-evenly;
 }
 /* our partner part end */
+
+/* popular part start */
+.popular-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.popular-title{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.popular-text{
+    font-size: 28px;
+    margin: 10px 0;
+}
+.popular-services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    margin-bottom: 30px;
+}
+.popular-card{
+    box-shadow: 10px 10px 30px grey;
+    padding: 20px 0 20px 20px;
+    border-radius: 10px;
+}
+.popular-service .popular-img img{
+    width: 300px;
+    height: 256px
+}
+.star-icon i{
+    color: #FB8200;
+    margin-left: -5px;
+    margin-right: 10px;
+}
+.star-rating{
+    text-decoration: none;
+    color:#3A3A3A;
+}
+#bg-remove-button{
+    position:relative;
+    left: 850px;
+    background-color: #e02c6e00;
+    color:#E02C6D;
+    font-weight: 700;
+    
+}
+#bg-empty{
+    color:#E02C6D;
+    margin-left: 4px;
+}
+/* popular part end */
+/* feature part start */
+.feature-product{
+    display: flex;
+    align-items: center;
+}
+.feature-left{
+    width: 45%;
+}
+.feature-img{
+    padding-left: 100px;
+}
+.feature-img img{
+    width:550px;
+    height: 350px;
+    
+}
+.feature-right{
+    width: 55%;
+    margin: 0 80px;
+}
+.feature-right h2{
+   font-size: 38px;
+   color:#3A3A3A;
+   margin-bottom:20px;
+}
+.feature-right p{
+   font-size: 18px;
+   color:#3A3A3A;
+   margin-bottom:27px;
+}
+.feature-container{
+    margin-bottom: 100px;
+}
+/* feature part end */
+/* footer part start */
+.footer{
+    background-color: #0A0826;
+    padding: 50px 0;
+}
+.footer-detail{
+    text-align: center;
+    color: #fff;
+}
+.footer-detail h3{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.footer-detail p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.font-icon .fa-brands{
+    color: #fff;
+    margin: 5px;
+    font-size: 26px;
+}
